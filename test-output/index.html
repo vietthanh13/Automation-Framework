@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-UploadFile" class="navigator-link">
+              <span class="suite-name border-failed">UploadFile</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-UploadFile" class="navigator-link ">
+                    <span>C:\Users\quanh\git\Automation-framework\resources\runBankguruTestcases.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-UploadFile" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-UploadFile" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-UploadFile" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-UploadFile" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-UploadFile" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-UploadFile" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 6 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-UploadFile" class="hide-methods failed suite-UploadFile"> (hide)</a> <!-- hide-methods failed suite-UploadFile -->
+                      <a href="#" panel-name="suite-UploadFile" class="show-methods failed suite-UploadFile"> (show)</a> <!-- show-methods failed suite-UploadFile -->
+                    </span>
+                    <div class="method-list-content failed suite-UploadFile">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UploadFile" title="com.bankguru.livecodingproject.deleteCustomerTestcases" class="method navigator-link" hash-for-method="TC_01_Create_New_Customer_And_Checked_Created_Succesfully">TC_01_Create_New_Customer_And_Checked_Created_Succesfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UploadFile" title="com.bankguru.livecodingproject.deleteCustomerTestcases" class="method navigator-link" hash-for-method="TC_02_Verify_CustomerID_Cannot_Be_Empty">TC_02_Verify_CustomerID_Cannot_Be_Empty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UploadFile" title="com.bankguru.livecodingproject.deleteCustomerTestcases" class="method navigator-link" hash-for-method="TC_03_Verify_CustomerID_Must_Be_Numeric">TC_03_Verify_CustomerID_Must_Be_Numeric</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UploadFile" title="com.bankguru.livecodingproject.deleteCustomerTestcases" class="method navigator-link" hash-for-method="TC_04_Verify_CustomerID_Cannot_Have_Special_Characters">TC_04_Verify_CustomerID_Cannot_Have_Special_Characters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UploadFile" title="com.bankguru.livecodingproject.deleteCustomerTestcases" class="method navigator-link" hash-for-method="TC_05_Verify_CustomerID_Cannot_Have_Black_Space">TC_05_Verify_CustomerID_Cannot_Have_Black_Space</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-UploadFile" title="com.bankguru.livecodingproject.deleteCustomerTestcases" class="method navigator-link" hash-for-method="TC_06_Verify_CustomerID_Cannot_Be_Space">TC_06_Verify_CustomerID_Cannot_Be_Space</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-UploadFile -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-UploadFile" class="panel UploadFile">
+          <div class="suite-UploadFile-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bankguru.livecodingproject.deleteCustomerTestcases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_01_Create_New_Customer_And_Checked_Created_Succesfully">
+                  </a> <!-- TC_01_Create_New_Customer_And_Checked_Created_Succesfully -->
+                  <span class="method-name">TC_01_Create_New_Customer_And_Checked_Created_Succesfully</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: Customer could not be added !!: 
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-05J6JRM&apos;, ip: &apos;192.168.1.44&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.2&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211119140621, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 12484, moz:profile: C:\Users\quanh\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 51780b14-1e13-4279-aaf6-d7a825bb77ec
+*** Element info: {Using=xpath, value=//p[text()=&apos;Customer Registered Successfully!!!&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at commons.BasePage.waitForElementVisible(BasePage.java:510)
+	at pageObjects.bankguru.NewCustomerPO.verifyToastRegisterSuccessfully(NewCustomerPO.java:76)
+	at com.bankguru.livecodingproject.deleteCustomerTestcases.TC_01_Create_New_Customer_And_Checked_Created_Succesfully(deleteCustomerTestcases.java:125)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_02_Verify_CustomerID_Cannot_Be_Empty">
+                  </a> <!-- TC_02_Verify_CustomerID_Cannot_Be_Empty -->
+                  <span class="method-name">TC_02_Verify_CustomerID_Cannot_Be_Empty</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;pageObjects.bankguru.DeleteCustomerPO.inputToCustomerIDTextbox(org.openqa.selenium.WebDriver, String, String)&quot; because &quot;this.deleteCustomerPage&quot; is null
+	at com.bankguru.livecodingproject.deleteCustomerTestcases.TC_02_Verify_CustomerID_Cannot_Be_Empty(deleteCustomerTestcases.java:176)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_03_Verify_CustomerID_Must_Be_Numeric">
+                  </a> <!-- TC_03_Verify_CustomerID_Must_Be_Numeric -->
+                  <span class="method-name">TC_03_Verify_CustomerID_Must_Be_Numeric</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;pageObjects.bankguru.DeleteCustomerPO.inputToCustomerIDTextbox(org.openqa.selenium.WebDriver, String, String)&quot; because &quot;this.deleteCustomerPage&quot; is null
+	at com.bankguru.livecodingproject.deleteCustomerTestcases.TC_03_Verify_CustomerID_Must_Be_Numeric(deleteCustomerTestcases.java:189)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_04_Verify_CustomerID_Cannot_Have_Special_Characters">
+                  </a> <!-- TC_04_Verify_CustomerID_Cannot_Have_Special_Characters -->
+                  <span class="method-name">TC_04_Verify_CustomerID_Cannot_Have_Special_Characters</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;pageObjects.bankguru.DeleteCustomerPO.inputToCustomerIDTextbox(org.openqa.selenium.WebDriver, String, String)&quot; because &quot;this.deleteCustomerPage&quot; is null
+	at com.bankguru.livecodingproject.deleteCustomerTestcases.TC_04_Verify_CustomerID_Cannot_Have_Special_Characters(deleteCustomerTestcases.java:199)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_05_Verify_CustomerID_Cannot_Have_Black_Space">
+                  </a> <!-- TC_05_Verify_CustomerID_Cannot_Have_Black_Space -->
+                  <span class="method-name">TC_05_Verify_CustomerID_Cannot_Have_Black_Space</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;pageObjects.bankguru.DeleteCustomerPO.inputToCustomerIDTextbox(org.openqa.selenium.WebDriver, String, String)&quot; because &quot;this.deleteCustomerPage&quot; is null
+	at com.bankguru.livecodingproject.deleteCustomerTestcases.TC_05_Verify_CustomerID_Cannot_Have_Black_Space(deleteCustomerTestcases.java:209)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC_06_Verify_CustomerID_Cannot_Be_Space">
+                  </a> <!-- TC_06_Verify_CustomerID_Cannot_Be_Space -->
+                  <span class="method-name">TC_06_Verify_CustomerID_Cannot_Be_Space</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;pageObjects.bankguru.DeleteCustomerPO.inputToCustomerIDTextbox(org.openqa.selenium.WebDriver, String, String)&quot; because &quot;this.deleteCustomerPage&quot; is null
+	at com.bankguru.livecodingproject.deleteCustomerTestcases.TC_06_Verify_CustomerID_Cannot_Be_Space(deleteCustomerTestcases.java:219)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UploadFile-class-failed -->
+        </div> <!-- panel UploadFile -->
+        <div panel-name="test-xml-UploadFile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\quanh\git\Automation-framework\resources\runBankguruTestcases.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;UploadFile&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;http://demo.guru99.com/V4/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;commons.MethodListener&quot;/&gt;
+    &lt;listener class-name=&quot;reportConfig.ExtentTestListener&quot;/&gt;
+    &lt;listener class-name=&quot;reportConfig.ReportNGListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Run on FIREFOX&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bankguru.livecodingproject.deleteCustomerTestcases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run on FIREFOX --&gt;
+&lt;/suite&gt; &lt;!-- UploadFile --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-UploadFile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for UploadFile</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Run on FIREFOX (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-UploadFile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for UploadFile</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-UploadFile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for UploadFile</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_UploadFile');
+function tableData_UploadFile() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC_01_Create_New_Customer_And_Checked_Created_Succesfully')
+data.setCell(0, 2, 'com.bankguru.livecodingproject.deleteCustomerTestcases')
+data.setCell(0, 3, 5937);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC_02_Verify_CustomerID_Cannot_Be_Empty')
+data.setCell(1, 2, 'com.bankguru.livecodingproject.deleteCustomerTestcases')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC_06_Verify_CustomerID_Cannot_Be_Space')
+data.setCell(2, 2, 'com.bankguru.livecodingproject.deleteCustomerTestcases')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC_05_Verify_CustomerID_Cannot_Have_Black_Space')
+data.setCell(3, 2, 'com.bankguru.livecodingproject.deleteCustomerTestcases')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC_03_Verify_CustomerID_Must_Be_Numeric')
+data.setCell(4, 2, 'com.bankguru.livecodingproject.deleteCustomerTestcases')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC_04_Verify_CustomerID_Cannot_Have_Special_Characters')
+data.setCell(5, 2, 'com.bankguru.livecodingproject.deleteCustomerTestcases')
+data.setCell(5, 3, 0);
+window.suiteTableData['UploadFile']= { tableData: data, tableDiv: 'times-div-UploadFile'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-UploadFile">
+              </div> <!-- times-div-UploadFile -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-UploadFile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for UploadFile</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_02_Verify_CustomerID_Cannot_Be_Empty</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br><a target="_blank" href="file:///C:\Users\quanh\git\Automation-framework/screenshotReportNG/TC_02_Verify_CustomerID_Cannot_Be_Empty_06_12_2021_11_30_59.png"><img src="file:///C:\Users\quanh\git\Automation-framework/screenshotReportNG/TC_02_Verify_CustomerID_Cannot_Be_Empty_06_12_2021_11_30_59.png" height='100' width='150'/> </a></br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_04_Verify_CustomerID_Cannot_Have_Special_Characters</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br><a target="_blank" href="file:///C:\Users\quanh\git\Automation-framework/screenshotReportNG/TC_04_Verify_CustomerID_Cannot_Have_Special_Characters_06_12_2021_11_30_59.png"><img src="file:///C:\Users\quanh\git\Automation-framework/screenshotReportNG/TC_04_Verify_CustomerID_Cannot_Have_Special_Characters_06_12_2021_11_30_59.png" height='100' width='150'/> </a></br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_06_Verify_CustomerID_Cannot_Be_Space</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br><a target="_blank" href="file:///C:\Users\quanh\git\Automation-framework/screenshotReportNG/TC_06_Verify_CustomerID_Cannot_Be_Space_06_12_2021_11_30_59.png"><img src="file:///C:\Users\quanh\git\Automation-framework/screenshotReportNG/TC_06_Verify_CustomerID_Cannot_Be_Space_06_12_2021_11_30_59.png" height='100' width='150'/> </a></br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_05_Verify_CustomerID_Cannot_Have_Black_Space</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br><a target="_blank" href="file:///C:\Users\quanh\git\Automation-framework/screenshotReportNG/TC_05_Verify_CustomerID_Cannot_Have_Black_Space_06_12_2021_11_30_59.png"><img src="file:///C:\Users\quanh\git\Automation-framework/screenshotReportNG/TC_05_Verify_CustomerID_Cannot_Have_Black_Space_06_12_2021_11_30_59.png" height='100' width='150'/> </a></br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_03_Verify_CustomerID_Must_Be_Numeric</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br><a target="_blank" href="file:///C:\Users\quanh\git\Automation-framework/screenshotReportNG/TC_03_Verify_CustomerID_Must_Be_Numeric_06_12_2021_11_30_59.png"><img src="file:///C:\Users\quanh\git\Automation-framework/screenshotReportNG/TC_03_Verify_CustomerID_Must_Be_Numeric_06_12_2021_11_30_59.png" height='100' width='150'/> </a></br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_01_Create_New_Customer_And_Checked_Created_Succesfully</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br><a target="_blank" href="file:///C:\Users\quanh\git\Automation-framework/screenshotReportNG/TC_01_Create_New_Customer_And_Checked_Created_Succesfully_06_12_2021_11_30_59.png"><img src="file:///C:\Users\quanh\git\Automation-framework/screenshotReportNG/TC_01_Create_New_Customer_And_Checked_Created_Succesfully_06_12_2021_11_30_59.png" height='100' width='150'/> </a></br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-UploadFile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-UploadFile" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bankguru.livecodingproject.deleteCustomerTestcases</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">deleteAllFilesInReportNGScreenshot</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(firefox, http://demo.guru99.com/V4/)</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_01_Create_New_Customer_And_Checked_Created_Succesfully</span>
+                <span class="method-start">5297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_02_Verify_CustomerID_Cannot_Be_Empty</span>
+                <span class="method-start">11333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_03_Verify_CustomerID_Must_Be_Numeric</span>
+                <span class="method-start">11400 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_04_Verify_CustomerID_Cannot_Have_Special_Characters</span>
+                <span class="method-start">11468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_05_Verify_CustomerID_Cannot_Have_Black_Space</span>
+                <span class="method-start">11534 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC_06_Verify_CustomerID_Cannot_Be_Space</span>
+                <span class="method-start">11601 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">cleanBrowser(firefox)</span>
+                <span class="method-start">11668 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
